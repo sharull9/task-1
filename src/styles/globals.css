@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Source Sans Pro', sans-serif; */
+
+body {
+  box-sizing: border-box;
+}
+h1 {
+  font-family: "Source Sans Pro", sans-serif;
+  @apply text-[38px] xl:text-[62px] font-bold text-primary leading-[46px] xl:leading-[69px];
+}
+h2 {
+  font-family: "Poppins", sans-serif;
+  @apply text-[26px] xl:text-[45px] font-semibold text-primary leading-[35px] xl:leading-[27px];
+}
+h3 {
+  font-family: "Source Sans Pro", sans-serif;
+  @apply text-[28px] xl:text-[56px] font-semibold text-primary leading-[54px] xl:leading-[42px];
+}
+h4 {
+  font-family: "Poppins", sans-serif;
+  @apply text-[16px] xl:text-[21px] font-bold text-primary leading-[35px] xl:leading-[27px];
+}
+h5 {
+  font-family: "Poppins", sans-serif;
+  @apply text-[18.84px] font-semibold text-primary leading-[27.22px];
+}
+.para {
+  font-family: "Open Sans", sans-serif;
+  @apply text-[11px] xl:text-[15px] font-normal text-text leading-[21px] xl:leading-[27px];
+}
+.para1 {
+  font-family: "Open Sans", sans-serif;
+  @apply text-[11px] xl:text-[16.44px] font-normal text-text leading-[18px] xl:leading-[27.41px] text-center xl:text-left;
+}
+.para2 {
+  font-family: "Open Sans", sans-serif;
+  @apply text-[14.66px] font-normal text-footerText leading-[27.22px];
+}
+.cpText {
+  font-family: "Roboto", sans-serif;
+  @apply text-[14.66px] font-normal text-cpText leading-[25.12px];
+}
+
+.shadow {
+  background: #ffffff;
+  border: 1.37039px solid rgba(147, 162, 211, 0.38);
+  border-radius: 20.937px;
+}
+
+.btn {
+  font-family: "Source Sans Pro", sans-serif;
+  @apply bg-secondary font-semibold text-[11px] xl:text-[16px] text-white w-[84px] h-[27px] xl:w-[119px] xl:h-[56px] tracking-[0.03em] rounded-[30px] border-[1px] border-white right-[20px] top-[20px];
+}
+
+.btn-1 {
+  font-family: "Open Sans", sans-serif;
+  @apply bg-secondary font-bold text-[12.27px] xl:text-[18px] text-white w-[120px] h-[40px] xl:w-[190px] xl:h-[63px] tracking-[0.03em] rounded-[30px];
+}
+
+.article-btn {
+  font-family: "Source Sans Pro", sans-serif;
+  @apply bg-white font-semibold text-[11px] xl:text-[16.44px] text-[#424961] w-[130px] h-[32px] xl:w-[140px] xl:h-[42px] tracking-[0.03em] rounded-[30px] border-[1px] border-[#424961] right-[20px] top-[20px];
+}
+
+.article-list {
+  @apply grid grid-rows-3 xl:grid-cols-3 gap-[40px];
+}
+
+.article-card {
+  @apply rounded-[20px] border-[1.3px] border-borderClr pt-[40px] px-[34px] pb-[40px] xl:pt-[27px] xl:px-[27px] xl:pb-[43px] w-[271px] xl:w-[381px];
+}
