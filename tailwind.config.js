@@ -15,6 +15,9 @@ module.exports = {
       spacing: {
         100: "100px",
       },
+      backgroundImage: {
+        "hero-pattern": "url('../../public/hero.png')",
+      },
     },
   },
   plugins: [],
