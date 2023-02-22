@@ -11,7 +11,7 @@ function Footer() {
       <div className="flex justify-center items-center xl:justify-start">
         <Image src={Logo} className="xl:w-[161px]" />
       </div>
-      <div className="pt-[42px] xl:pt-0">
+      <div className="">
         <h5>Contact Us</h5>
         <p className="para2 w-[275px] xl:w-[217px] xl:pt-[14px]">
           Lorem Ipsum Pvt Ltd.5/1, Magalton Road, Phartosh Gate near YTM Market,
