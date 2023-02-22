@@ -7,21 +7,30 @@ import img3 from "../public/article-3.png";
 import img4 from "../public/article-4.png";
 import img5 from "../public/article-5.png";
 import img6 from "../public/article-6.png";
+import Button from "./Button";
 
 function Article() {
   const [value, setValue] = useState(0);
-  const rotate = () => {
-    setValue(100);
+  const [number, setNumber] = useState(1);
+  const moveLeft = () => {
+    setValue(0);
+    setNumber(1);
+  };
+  const moveRight = () => {
+    setValue(-100);
+    setNumber(2);
   };
 
   return (
-    <div className="">
+    <div className=" overflow-x-hidden">
       <div className="mt-[132px] xl:mt-[158px] xl:h-[84px] px-[54px] xl:pl-[114px] xl:pr-[104px]">
         <h3>Latest Articles</h3>
       </div>
-      <div className="mt-[23px] xl:mt-[41px] flex ">
+      <div
+        className={`mt-[23px] xl:mt-[41px] flex transition-all duration-200 translate-x-[${value}%]`}
+      >
         <div
-          className={`article-list w-[100%] xl:min-w-[1440px] px-[54px] xl:pl-[114px] xl:pr-[104px] translate-x-[-${value}%]`}
+          className={`article-list min-w-[100%] px-[54px] xl:pl-[114px] xl:pr-[104px]`}
         >
           <div className="article-card">
             <Image src={img1} alt="" />
@@ -75,7 +84,7 @@ function Article() {
             </div>
           </div>
         </div>
-        <div className="article-list w-[100%] xl:min-w-[1440px] px-[54px] xl:pl-[114px] xl:pr-[104px]">
+        <div className="article-list min-w-[100%] px-[54px] xl:pl-[114px] xl:pr-[104px] translate-x-[2 0px]">
           <div className="article-card">
             <Image src={img4} alt="" />
             <h4 className="text-center xl:text-left mt-[39px] xl:mt-[34px]">
@@ -129,8 +138,12 @@ function Article() {
           </div>
         </div>
       </div>
-      <div>
-        <button onClick={rotate()}>right</button>
+      <div className="py-[63px] flex justify-center items center">
+        <Button direction="left" moveSlide={moveLeft} />
+        <div className="w-[40px] h-[28px ] text-center flex justify-center items-center">
+          {number} / 2
+        </div>
+        <Button direction="right" moveSlide={moveRight} />
       </div>
     </div>
   );

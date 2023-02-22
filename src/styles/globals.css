@@ -2,10 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-/* font-family: 'Open Sans', sans-serif;
-font-family: 'Poppins', sans-serif;
-font-family: 'Source Sans Pro', sans-serif; */
-
 body {
   box-sizing: border-box;
 }
