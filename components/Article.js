@@ -141,7 +141,7 @@ function Article() {
       </div>
       <div className="py-[63px] flex justify-center items center">
         <Button direction="left" moveSlide={moveLeft} />
-        <div className="w-[40px] h-[28px ] text-center flex justify-center items-center">
+        <div className="h-[16px] xl:w-[40px] xl:h-[28px] text-[11px] xl:text-[16px] text-center flex justify-center items-center">
           {number} / 2
         </div>
         <Button direction="right" moveSlide={moveRight} />
