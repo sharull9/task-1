@@ -8,12 +8,12 @@ function Button({ direction, moveSlide }) {
       onClick={moveSlide}
       className={`${
         direction == "left" ? "right" : "left"
-      } w-[16px] h-[16px] xl:w-[28px] xl:h-[28px] border-[1px] border-[#424961] rounded-[5px] mx-1`}
+      } w-[16px] h-[16px] xl:w-[28px] xl:h-[28px] border-[1px] border-[#424961] rounded-[5px] mx-1 flex justify-center items-center`}
     >
       {direction == "left" ? (
-        <KeyboardArrowLeftIcon />
+        <KeyboardArrowLeftIcon className="text-[12px] xl:text-[24px]" />
       ) : (
-        <KeyboardArrowRightIcon />
+        <KeyboardArrowRightIcon className="text-[12px] xl:text-[24px]" />
       )}
     </button>
   );

@@ -23,7 +23,7 @@ h4 {
 }
 h5 {
   font-family: "Poppins", sans-serif;
-  @apply text-[18.84px] font-semibold text-primary leading-[27.22px];
+  @apply text-[15.77px] xl:text-[18.84px] font-semibold text-primary leading-[34.8px] xl:leading-[27.22px];
 }
 .para {
   font-family: "Open Sans", sans-serif;
@@ -31,15 +31,15 @@ h5 {
 }
 .para1 {
   font-family: "Open Sans", sans-serif;
-  @apply text-[11px] xl:text-[16.44px] font-normal text-text leading-[18px] xl:leading-[27.41px] text-center xl:text-left;
+  @apply text-[11px] xl:text-[16.44px] font-normal text-[#646874] leading-[18px] xl:leading-[27.41px] text-center xl:text-left;
 }
 .para2 {
   font-family: "Open Sans", sans-serif;
-  @apply text-[14.66px] font-normal text-footerText leading-[27.22px];
+  @apply text-[8.66px] xl:text-[14.66px] font-normal text-footerText leading-[27.22px];
 }
 .cpText {
   font-family: "Roboto", sans-serif;
-  @apply text-[14.66px] font-normal text-cpText leading-[25.12px];
+  @apply text-[8.66px] xl:text-[14.66px] font-normal text-cpText leading-[25.12px];
 }
 
 .shadow {

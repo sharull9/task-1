@@ -1,8 +1,8 @@
 import Head from "next/head";
 import HeroSection from "components/HeroSection";
-
 import AboutUs from "components/AboutUs";
 import Article from "components/Article";
+import Footer from "components/Footer";
 export default function Home() {
   return (
     <>
@@ -16,6 +16,7 @@ export default function Home() {
         <HeroSection />
         <AboutUs />
         <Article />
+        <Footer />
       </main>
     </>
   );

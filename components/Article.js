@@ -27,7 +27,8 @@ function Article() {
         <h3>Latest Articles</h3>
       </div>
       <div
-        className={`mt-[23px] xl:mt-[41px] flex transition-all duration-200 translate-x-[${value}%]`}
+        className={`mt-[23px] xl:mt-[41px] flex transition-all duration-200`}
+        style={{ transform: `translateX(${value}%)` }}
       >
         <div
           className={`article-list min-w-[100%] px-[54px] xl:pl-[114px] xl:pr-[104px]`}

@@ -1,5 +1,4 @@
 import Image from "next/image";
-import heroBgImage from "../public/hero.png";
 import vector from "../public/vector.png";
 import Link from "next/link";
 import Logo from "../public/logo.png";
