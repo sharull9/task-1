@@ -35,11 +35,6 @@ function HeroSection() {
           alt=""
           className="absolute xl:w-[720px] top-0 right-0"
         />
-        {/* <Image
-          src={heroBgImage}
-          alt="bgImage"
-          className="w-full h-full right-0 top-0"
-        /> */}
       </div>
     </div>
   );

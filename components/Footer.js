@@ -9,7 +9,7 @@ function Footer() {
   return (
     <div className="pt-[52px] pb-[105px] xl:pt-[84px] xl:pb-[92px] px-[41px] xl:px-[108px] bg-bgColor grid grid-rows-4 xl:grid-rows-1 xl:grid-cols-4">
       <div className="flex justify-center items-center xl:justify-start">
-        <Image src={Logo} className="xl:w-[161px]" />
+        <Image src={Logo} className="xl:w-[161px]" alt="" />
       </div>
       <div className="">
         <h5>Contact Us</h5>

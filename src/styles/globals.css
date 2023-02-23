@@ -50,17 +50,31 @@ h5 {
 
 .btn {
   font-family: "Source Sans Pro", sans-serif;
-  @apply bg-secondary font-semibold text-[11px] xl:text-[16px] text-white w-[84px] h-[27px] xl:w-[130px] xl:h-[56px] tracking-[0.03em] rounded-[30px] border-[1px] border-white right-[20px] top-[20px];
+  @apply bg-secondary font-semibold text-[11px] xl:text-[16px] text-white w-[84px] h-[27px] xl:w-[130px] xl:h-[56px] tracking-[0.03em] rounded-[30px] border-[1px] border-white right-[20px] top-[20px] transition-colors duration-300;
+}
+.btn:hover {
+  font-family: "Source Sans Pro", sans-serif;
+  @apply bg-white font-semibold text-[11px] xl:text-[16px] text-secondary w-[84px] h-[27px] xl:w-[130px] xl:h-[56px] tracking-[0.03em] rounded-[30px] border-[1px] border-white right-[20px] top-[20px];
 }
 
 .btn-1 {
   font-family: "Open Sans", sans-serif;
-  @apply bg-secondary font-bold text-[12.27px] xl:text-[18px] text-white w-[120px] h-[40px] xl:w-[190px] xl:h-[63px] tracking-[0.03em] rounded-[30px];
+  @apply bg-secondary font-bold text-[12.27px] xl:text-[18px] text-white w-[120px] h-[40px] xl:w-[190px] xl:h-[63px] tracking-[0.03em] rounded-[30px] transition-colors duration-300;
+}
+
+.btn-1:hover {
+  font-family: "Open Sans", sans-serif;
+  @apply bg-white font-bold text-[12.27px] xl:text-[18px] text-secondary border-[1px] border-secondary w-[120px] h-[40px] xl:w-[190px] xl:h-[63px] tracking-[0.03em] rounded-[30px];
 }
 
 .article-btn {
   font-family: "Source Sans Pro", sans-serif;
-  @apply bg-white font-semibold text-[11px] xl:text-[16.44px] text-[#424961] w-[130px] h-[32px] xl:w-[140px] xl:h-[42px] tracking-[0.03em] rounded-[30px] border-[1px] border-[#424961] right-[20px] top-[20px];
+  @apply bg-white font-semibold text-[11px] xl:text-[16.44px] text-[#424961] w-[130px] h-[32px] xl:w-[140px] xl:h-[42px] tracking-[0.03em] rounded-[30px] border-[1px] border-[#424961] right-[20px] top-[20px] transition-all duration-300;
+}
+
+.article-btn:hover {
+  font-family: "Source Sans Pro", sans-serif;
+  @apply bg-white font-semibold text-[11px] xl:text-[16.44px] text-[#424961] w-[130px] h-[32px] xl:w-[140px] xl:h-[42px] tracking-[0.03em] rounded-[30px] border-[1px] border-[#424961] right-[20px] top-[20px] scale-110;
 }
 
 .article-list {
@@ -68,5 +82,5 @@ h5 {
 }
 
 .article-card {
-  @apply rounded-[20px] border-[1.3px] border-borderClr pt-[40px] px-[34px] pb-[40px] xl:pt-[27px] xl:px-[27px] xl:pb-[43px] w-[271px] xl:w-[381px];
+  @apply rounded-[20px] border-[1.3px] border-borderClr pt-[10px] px-[10px] pb-[20px] xl:pt-[27px] xl:px-[27px] xl:pb-[43px] w-[271px] xl:w-full;
 }

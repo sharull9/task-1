@@ -1,4 +1,3 @@
-import { data } from "autoprefixer";
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
@@ -11,6 +10,7 @@ import img6 from "../public/article-6.png";
 import Button from "./Button";
 
 function Article() {
+
   const [value, setValue] = useState(0);
   const [number, setNumber] = useState(1);
   const moveLeft = () => {
@@ -36,7 +36,7 @@ function Article() {
         >
           <div className="article-card shadow">
             <Image src={img1} alt="" />
-            <h4 className="text-center xl:text-left mt-[39px] xl:mt-[34px]">
+            <h4 className="text-center xl:text-left mt-[25px] xl:mt-[34px]">
               Grilled Tomatoes at Home
             </h4>
             <p className="para text-[12px] mt-[6px] xl:mt-[14px]">
@@ -53,7 +53,7 @@ function Article() {
           </div>
           <div className="article-card shadow">
             <Image src={img2} alt="" />
-            <h4 className="text-center xl:text-left mt-[39px] xl:mt-[34px]">
+            <h4 className="text-center xl:text-left mt-[25px] xl:mt-[34px]">
               Snacks for Travel
             </h4>
             <p className="para text-[12px] mt-[6px] xl:mt-[14px]">
@@ -70,7 +70,7 @@ function Article() {
           </div>
           <div className="article-card shadow">
             <Image src={img3} alt="" />
-            <h4 className="text-center xl:text-left mt-[39px] xl:mt-[34px]">
+            <h4 className="text-center xl:text-left mt-[25px] xl:mt-[34px]">
               Post-workout Recipes
             </h4>
             <p className="para text-[12px] mt-[6px] xl:mt-[14px]">
@@ -89,7 +89,7 @@ function Article() {
         <div className="article-list min-w-[100%] px-[54px] xl:pl-[114px] xl:pr-[104px] translate-x-[2 0px]">
           <div className="article-card shadow">
             <Image src={img4} alt="" />
-            <h4 className="text-center xl:text-left mt-[39px] xl:mt-[34px]">
+            <h4 className="text-center xl:text-left mt-[25px] xl:mt-[34px]">
               Grilled Tomatoes at Home
             </h4>
             <p className="para text-[12px] mt-[6px] xl:mt-[14px]">
@@ -106,7 +106,7 @@ function Article() {
           </div>
           <div className="article-card shadow">
             <Image src={img5} alt="" />
-            <h4 className="text-center xl:text-left mt-[39px] xl:mt-[34px]">
+            <h4 className="text-center xl:text-left mt-[25px] xl:mt-[34px]">
               Snacks for Travel
             </h4>
             <p className="para text-[12px] mt-[6px] xl:mt-[14px]">
@@ -123,7 +123,7 @@ function Article() {
           </div>
           <div className="article-card shadow">
             <Image src={img6} alt="" />
-            <h4 className="text-center xl:text-left mt-[39px] xl:mt-[34px]">
+            <h4 className="text-center xl:text-left mt-[25px] xl:mt-[34px]">
               Post-workout Recipes
             </h4>
             <p className="para text-[12px] mt-[6px] xl:mt-[14px]">
