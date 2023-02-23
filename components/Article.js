@@ -1,3 +1,4 @@
+import { data } from "autoprefixer";
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
@@ -33,7 +34,7 @@ function Article() {
         <div
           className={`article-list min-w-[100%] px-[54px] xl:pl-[114px] xl:pr-[104px]`}
         >
-          <div className="article-card">
+          <div className="article-card shadow">
             <Image src={img1} alt="" />
             <h4 className="text-center xl:text-left mt-[39px] xl:mt-[34px]">
               Grilled Tomatoes at Home
@@ -50,7 +51,7 @@ function Article() {
               </button>
             </div>
           </div>
-          <div className="article-card">
+          <div className="article-card shadow">
             <Image src={img2} alt="" />
             <h4 className="text-center xl:text-left mt-[39px] xl:mt-[34px]">
               Snacks for Travel
@@ -67,7 +68,7 @@ function Article() {
               </button>
             </div>
           </div>
-          <div className="article-card">
+          <div className="article-card shadow">
             <Image src={img3} alt="" />
             <h4 className="text-center xl:text-left mt-[39px] xl:mt-[34px]">
               Post-workout Recipes
@@ -86,7 +87,7 @@ function Article() {
           </div>
         </div>
         <div className="article-list min-w-[100%] px-[54px] xl:pl-[114px] xl:pr-[104px] translate-x-[2 0px]">
-          <div className="article-card">
+          <div className="article-card shadow">
             <Image src={img4} alt="" />
             <h4 className="text-center xl:text-left mt-[39px] xl:mt-[34px]">
               Grilled Tomatoes at Home
@@ -103,7 +104,7 @@ function Article() {
               </button>
             </div>
           </div>
-          <div className="article-card">
+          <div className="article-card shadow">
             <Image src={img5} alt="" />
             <h4 className="text-center xl:text-left mt-[39px] xl:mt-[34px]">
               Snacks for Travel
@@ -120,7 +121,7 @@ function Article() {
               </button>
             </div>
           </div>
-          <div className="article-card">
+          <div className="article-card shadow">
             <Image src={img6} alt="" />
             <h4 className="text-center xl:text-left mt-[39px] xl:mt-[34px]">
               Post-workout Recipes

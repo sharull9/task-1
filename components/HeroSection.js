@@ -26,11 +26,15 @@ function HeroSection() {
           </button>
         </div>
       </div>
-      <div className="w-full h-[413px] xl:h-[804px] row-start-1 row-end-2 xl:col-start-2 xl:col-end-3 relative bg-hero-pattern bg-no-repeat bg-contain">
+      <div className="w-full h-[413px] xl:h-[780px] row-start-1 row-end-2 xl:col-start-2 xl:col-end-3 relative bg-hero-pattern bg-no-repeat bg-cover">
         <button className="btn absolute z-10 right-[20px] top-[20px]">
           <Link href="#">Get in Touch</Link>
         </button>
-        <Image src={vector} alt="" className="absolute xl:w-[720px] inset-0" />
+        <Image
+          src={vector}
+          alt=""
+          className="absolute xl:w-[720px] top-0 right-0"
+        />
         {/* <Image
           src={heroBgImage}
           alt="bgImage"
